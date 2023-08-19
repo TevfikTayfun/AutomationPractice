@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --no-timeouts"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,8 @@
     "chromedriver": "^115.0.1",
     "mocha": "^10.2.0",
     "selenium-webdriver": "^4.11.1"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
   }
 }
